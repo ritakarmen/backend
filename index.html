@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test2</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="whidth=device-width, initial-scale=1.0">
+	<link href="css/main.css" rel="stylesheet">
+    <link href="php/reg.php" rel="stylesheet">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div>
+        <div class="contenedor-formulario">
+            <header>
+                <h1>Por favor, ingrese sus datos </h1>
+            </header>
+            <form action="procesar.php" method="post" name="form">
+                <input class="campo-texto" id="nombre" type="text" name="nombre" placeholder="Nombre y Apllido" maxlength="20" required="" /> 
+                <input class="campo-texto" id="dni" type="text" name="usuario" placeholder="DNI" maxlength="20" required="" />
+                <input class="campo-texto" id="telefono" type="text" name="telefono" placeholder="Telefono" maxlength="50" required="" />
+                <input class="campo-texto" id="direccion" type="text" name="dirección" placeholder="Direccion" maxlength="50" required="" />
+                <input class="campo-texto" id="password" type="password" name="password" placeholder="Contrase&ntilde;a" maxlength="15" required="" /> 
+               
+                <input type="reset" value="Limpiar" class="borrar" />
+                <input type="submit" value="Enviar" class="submit" />
+                <a href="http://unadireccionfalsaquenoexiste.com" target="blank">&iquest;Olvid&oacute; su contrase&ntilde;a?</a>
+            </form>
+            <footer>
+                <span>¿Ya estas registrado?</span>
+                <a class="boton" href="#">Login</a>
+            </footer>
+        </div>
+    </div>
+
+
+	<script src="https://code.jquery.com/jquery-2.2.2.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
